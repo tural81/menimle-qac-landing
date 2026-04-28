@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support — Run with me</title>
+  <meta name="description" content="Get help with Run with me — FAQ and contact.">
+  <link rel="canonical" href="https://menimle-qac-landing.vercel.app/support">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <style>
+    :root { --lime:#B5FF25; --bg:#FAFAFA; --ink:#0D0D0D; --mute:#5b5b5f; }
+    *,*::before,*::after { box-sizing: border-box; }
+    html,body { margin:0; padding:0; background:var(--bg); color:var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+      line-height:1.6; -webkit-font-smoothing:antialiased; }
+    a { color:#266DFF; text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    .wrap { max-width:760px; margin:0 auto; padding:48px 24px 96px; }
+    header { padding-bottom:24px; border-bottom:1px solid rgba(0,0,0,0.08); margin-bottom:32px; }
+    .logo { display:inline-block; padding:6px 12px; background:var(--lime);
+      color:#000; font-weight:800; border-radius:8px; }
+    h1 { font-size:34px; line-height:1.2; letterSpacing:-0.4px; margin:24px 0 8px; }
+    h2 { font-size:20px; margin:32px 0 8px; }
+    .sub { color:var(--mute); font-size:14px; }
+    p, li { font-size:15.5px; color:#222; }
+    .qa { background:#fff; border:1px solid rgba(0,0,0,0.08); border-radius:14px;
+      padding:18px 22px; margin:14px 0; }
+    .qa h3 { margin:0 0 6px; font-size:16px; }
+    .cta { display:inline-block; margin-top:12px; padding:14px 22px;
+      background:#266DFF; color:#fff; border-radius:14px; font-weight:700; }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="logo" href="/">Run with me</a>
+    <h1>Support</h1>
+    <p class="sub">We read every message. Most replies go out within 24 hours.</p>
+  </header>
+
+  <p>Need help with something specific? The fastest path is the in-app
+  form: open the App, tap <strong>Profile → Report a problem</strong>,
+  pick <em>A bug</em>, <em>A person</em>, <em>An idea</em>, or
+  <em>Something else</em>, and tell us what happened. The report
+  reaches our admin panel directly.</p>
+
+  <p>You can also reach us by email:
+    <a href="mailto:tural.yusifov@avtostop.tv">tural.yusifov@avtostop.tv</a>.
+  </p>
+
+  <h2>Frequently asked</h2>
+
+  <div class="qa">
+    <h3>The app keeps logging me out — what do I do?</h3>
+    <p>Make sure you’re on the latest version (iOS Settings → General →
+      Software Update, then App Store → Run with me → Update). We
+      shipped a fix in early May 2026 that ends the parallel-refresh
+      race that was kicking some Apple-Sign-In users back to the
+      welcome screen.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Heart rate shows "—" while I'm running.</h3>
+    <p>iPhone alone can't read live HR. Wear an Apple Watch with
+      Workout active, or grant Apple Health permission so we can
+      read passive samples. After granting, restart the run.</p>
+  </div>
+
+  <div class="qa">
+    <h3>How do I delete my account?</h3>
+    <p>Profile → Privacy &amp; Data → Delete account. The action
+      removes your runs, profile, photos, and chat history within
+      30 days. There is no undo.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Calories on the home screen don't match WHOOP.</h3>
+    <p>We pull today's <em>cycle.kilojoule</em> from WHOOP, which is
+      the same number WHOOP shows. If they differ, tap the tile to
+      open the Stats tab — that pulls the latest sample directly.</p>
+  </div>
+
+  <div class="qa">
+    <h3>I can't tap a buddy.</h3>
+    <p>Make sure both of you have completed onboarding (city + a name
+      set). Tapping is enabled the moment that's true.</p>
+  </div>
+
+  <h2>Still stuck?</h2>
+  <p>Email <a href="mailto:tural.yusifov@avtostop.tv">tural.yusifov@avtostop.tv</a>
+    with the iOS version and app build number (Profile → bottom of the
+    screen). We'll get back to you within 24 hours, weekdays.</p>
+
+  <a class="cta" href="/">← Back to home</a>
+</div>
+</body>
+</html>
